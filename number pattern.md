@@ -11,7 +11,7 @@ public class Pattern {
         int n = input.nextInt();
         for(int i = 1; i <= n; i++) {
             for(int j = 1; j <= n; j++) {
-                System.out.print("*"); // print method continue => print
+                System.out.print(i); // print method continue => print
             }
             System.out.println();
         }
@@ -22,13 +22,11 @@ public class Pattern {
 <h5>Output</h5>
 
 ```
-Enter rows value: 7
-*******
-*******
-*******
-*******
-*******
-*******
-*******
+Enter rows value: 5
+11111
+22222
+33333
+44444
+55555
 ```
 
