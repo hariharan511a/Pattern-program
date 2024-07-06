@@ -119,3 +119,47 @@ class Pattern {
     }
 }
 ```
+<h5>Output</h5>
+
+```
+Enter rows: 7
+1
+22
+333
+4444
+55555
+666666
+7777777
+```
+<h5>Pattern 2</h5>
+
+```Java
+import java.util.*;
+class Pattern {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter rows: ");
+
+        // Read scanning to store variable
+        int n = input.nextInt();
+
+        for(int i = 1; i <= n; i++) { 
+            for(int j = 1; j <= i; j++) {
+                System.out.print(j);
+            }
+            System.out.println(); // NextLine allocated
+        }
+    }
+}
+```
+<h5>Output</h5>
+
+```
+Enter rows: 5
+1
+12
+123
+1234
+12345
+```
+
