@@ -33,3 +33,4 @@ class Pattern {
 * * * * 
 * * * * * 
 ```
+<p>Left decreasing triangle</p>
