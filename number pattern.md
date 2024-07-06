@@ -199,4 +199,35 @@ Enter rows: 6
 11 12 13 14 15
 16 17 18 19 20 21
 ```
+<h5>Triangle pattern</h5>
+
+```Java
+class Pattern {
+    public static void main(String[] args) {
+        int n = 6; // num of rows
+
+        for(int i = 1; i <= n; i++) {
+            // print leading spaces
+            for(int j = i; j < n; j++) {
+                System.out.print(" ");
+            }
+            // print the number i times
+            for(int j = 1; j <= i; j++) {
+                System.out.print(i + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+<h5>Output</h5>
+
+```
+     1 
+    2 2
+   3 3 3
+  4 4 4 4
+ 5 5 5 5 5
+6 6 6 6 6 6
+```
 
