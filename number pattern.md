@@ -97,3 +97,4 @@ Enter rows value: 5
 5   5
 55555
 ```
+<h5>Number-increasing pyramid pattern</h5>
