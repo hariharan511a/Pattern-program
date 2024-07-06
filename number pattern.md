@@ -162,4 +162,41 @@ Enter rows: 5
 1234
 12345
 ```
+<h5>Pattern 3</h5>
+
+```Java
+import java.util.*;
+class Pattern {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter rows: ");
+
+        // Declared variable
+        int i, j;
+        int num = 1;
+
+        // Read scanning to store variable
+        int n = input.nextInt();
+
+        for(i = 1; i <= n; i++) { 
+            for(j = 1; j <= i; j++) {
+                System.out.print(num + " ");
+                num++;
+            }
+            System.out.println(); // NextLine allocated
+        }
+    }
+}
+```
+<Output>
+
+```
+Enter rows: 6
+1
+2 3 
+4 5 6
+7 8 9 10
+11 12 13 14 15
+16 17 18 19 20 21
+```
 
