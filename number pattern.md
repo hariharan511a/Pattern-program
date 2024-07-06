@@ -60,7 +60,7 @@ Enter rows value: 5
 55555
 ```
 <h5>Square hollow pattern</h5>
-<p>Pattern 1</p>
+<h5>Pattern 1</h5>
 
 ```Java
 import java.util.*; // import Scanner class
@@ -97,4 +97,25 @@ Enter rows value: 5
 5   5
 55555
 ```
-<h5>Number-increasing pyramid pattern</h5>
+<h5>Number- increasing pyramid pattern</h5>
+<h5>Pattern 1</h5>
+
+```Java
+import java.util.*;
+class Pattern {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter rows: ");
+
+        // Read scanning to store variable
+        int n = input.nextInt();
+
+        for(int i = 1; i <= n; i++) { 
+            for(int j = 1; j <= i; j++) {
+                System.out.print(i);
+            }
+            System.out.println(); // NextLine allocated
+        }
+    }
+}
+```
