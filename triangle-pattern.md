@@ -85,4 +85,33 @@ class Pattern {
   * * * * * *
 * * * * * * *
 ```
+<p>Right decreasing triangle</p>
 
+```Java
+class Pattern {
+    public static void main(String[] args) {
+        int n = 7;  // count of line
+
+        for (int i = n; i >= 1; i--) {
+            // print leading spaces
+            for (int j = n; j > i; j--) {
+                System.out.print("  ");
+            }
+            // print stars with spaces between them
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+====================================================
+
+* * * * * * * 
+  * * * * * *
+    * * * * *
+      * * * *
+        * * *
+          * *
+            *
+```
